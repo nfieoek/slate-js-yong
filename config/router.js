@@ -25,5 +25,11 @@ const routes=[
         component: './Video',
         layout:flag,
     },
+    {
+        name: '博客',
+        path: '/blog',
+        component: './Blog',
+        layout:flag,
+    },
 ]
 export default routes

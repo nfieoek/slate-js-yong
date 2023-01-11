@@ -1,11 +1,13 @@
 import React from 'react';
 
-function LoginPage (props) {
+function BlogPage () {
+
+
+
   return (
    <div>
-
    </div>
   );
 }
 
-export default LoginPage;
+export default BlogPage;
