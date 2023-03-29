@@ -1,5 +1,6 @@
 
-const flag=process.env.NODE_ENV === 'development'
+const flag=false
+    // process.env.NODE_ENV === 'development'
 
 
 const routes=[
@@ -11,25 +12,31 @@ const routes=[
         name: '主页',
         path: '/home',
         component: './Home',
-        layout:flag,
+        // layout:flag,
     },
     {
         name: '登录',
         path: '/login',
         component: './Login',
-        layout:flag,
+        // layout:flag,
     },
     {
         name: '视频播放',
         path: '/Video',
         component: './Video',
-        layout:flag,
+        // layout:flag,
+    },
+    {
+        name: 'webGl',
+        path: '/webGl',
+        component: './WebGl',
+        // layout:flag,
     },
     {
         name: '博客',
         path: '/blog',
         component: './Blog',
-        layout:flag,
+        // layout:flag,
     },
 ]
 export default routes

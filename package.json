@@ -16,7 +16,10 @@
     "@umijs/max": "^4.0.41",
     "antd": "^5.0.0",
     "lodash": "^4.17.21",
-    "react-player": "^2.11.0"
+    "react-player": "^2.11.0",
+    "slate": "^0.91.4",
+    "slate-react": "^0.92.0",
+    "three": "^0.150.1"
   },
   "devDependencies": {
     "@types/react": "^18.0.0",
