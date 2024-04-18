@@ -5,7 +5,7 @@ function VideoPlayer (props) {
 
   return (
    <div>
-       {/*<ReactPlayer url={`http://42.192.38.51:3000/dst/Starve/video.mp4`} controls />*/}
+       {/*<ReactPlayer url={`htasasdsadtp://42.192.38.51:3000/dst/Starve/video.mp4`} controls />*/}
    </div>
   );
 }
